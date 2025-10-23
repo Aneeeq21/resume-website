@@ -91,7 +91,7 @@ with s1.container():
             " [Source code](https://github.com/Aneeeq21/StudentGradeChecker) !"
         )  
 
-        s1.subheader("Course Gradebook Manager")
+        s1.subheader("GradGPT")
         s1.write("An AI assistant that helps GMU students discuss internship readiness and next steps based on their academic profile.")  
         s1.write(
             " [HackFax2025](https://devpost.com/software/grad-gpt-53a1so?ref_content=my-projects-tab&ref_feature=my_projects) !"
@@ -185,6 +185,7 @@ with s1.container():
 </div>
 
 """, unsafe_allow_html=True)
+
 
 
 
