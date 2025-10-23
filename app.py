@@ -1,6 +1,7 @@
+from pathlib import Path
 import base64
 import streamlit as s1
-
+ASSETS = Path(__file__).parent / "assets"
 def img_to_base64(path):
     with open(path, "rb") as f:
         return base64.b64encode(f.read()).decode()
@@ -29,7 +30,7 @@ with s1.container():
     
     with right_col:
         # convert image to base64
-        b64 = img_to_base64(r"C:\resume web\profile photo.JPEG")
+        b64 = img_to_base64(ASSETS / "profile photo.jpeg")
 
         
         s1.markdown(f"""
@@ -59,7 +60,7 @@ with s1.container():
     with image_coloumn:
         
         
-        b65 = img_to_base64(r"C:\resume web\Project image.JPG")
+        b65 = img_to_base64(ASSETS / "Project image.jpg")
         s1.markdown(f"""
         <style>
         .portrait1 img {{
@@ -128,7 +129,7 @@ with s1.container():
 
     #
         with right_col1:
-            b66 = img_to_base64(r"C:\resume web\s2.JPEG")
+            b66 = img_to_base64(ASSETS / "s2.jpeg")
             s1.markdown(f"""
             <style>
             .portrait3 img {{
@@ -173,7 +174,7 @@ with s1.container():
 
     with right_col5:
         
-        s1.image(r"C:\resume web\s3.png", use_container_width=True)  
+        s1.image(ASSETS / "s3.PNG", use_container_width=True)  
 
 s1.divider()
 with s1.container():
@@ -182,4 +183,10 @@ with s1.container():
 <div style='text-align: center; padding-top: 10px; font-size: 0.9rem; color: #999999;'>
 © 2025 <b>Aneeq Altaf</b>. All rights reserved.
 </div>
+
 """, unsafe_allow_html=True)
+
+
+
+
+
