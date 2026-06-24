@@ -162,10 +162,10 @@ with s1.container():
 </style>
 
 <ul class="passions-list">
-  <li><span class="emoji">💻</span><strong>LeetCodeClub GMU</strong></li>
+  <li><span class="emoji">Dattebayo🦊🌀</span><strong>Naruto</strong></li>
   <li><span class="emoji">🏏</span><strong>Sports & Screens </strong></li>
   <li><span class="emoji">🎮</span><strong>Dota 2</strong></li>
-  <li><span class="emoji">📺</span><strong>F.R.I.E.N.D.S</strong></li>
+  
   <li><span class="emoji">🪄</span><strong>Harry Potter</strong></li>
 </ul>
 """, unsafe_allow_html=True)
