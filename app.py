@@ -166,7 +166,7 @@ with s1.container():
   <li><span class="emoji">☘︎🖤</span><strong>BlackClover </strong></li>
   <li><span class="emoji">🎮</span><strong>Dota 2</strong></li>
   
-  <li><span class="emoji">🪄</span><strong>Harry Potter</strong></li>
+  <li><span class="emoji">🕷️</span><strong>Hunter x Hunter</strong></li>
 </ul>
 """, unsafe_allow_html=True)
 
